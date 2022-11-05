@@ -1,0 +1,56 @@
+.txt1 {
+    color: green;
+    padding: 2px 30px;
+    font-weight: 700;
+    font-size: 1.2em;
+}
+
+.txt {
+    text-decoration: none;
+    color: black;
+    padding: 2px 30px;
+    font-weight: 600;
+    font-size: 1.2em;
+}
+
+.txt:hover {
+    color: green;
+}
+
+.txt1:hover {
+    color: rgb(129, 236, 129);
+}
+
+.text {
+    text-align: center;
+    margin-top: 30px;
+}
+
+span {
+    color: green;
+}
+
+.margin {
+    margin: 20px 150px;
+}
+
+.btn-1 {
+    background-color: aqua;
+    padding: 15px 18px;
+    border: 4px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 800;
+}
+
+.btn-1:hover {
+    background-image: linear-gradient(rgb(159, 250, 250), rgb(135, 174, 174));
+}
+
+.display {
+    background-color: black;
+    color: aqua;
+    text-align: center;
+    padding: 50px;
+    margin: auto;
+}
