@@ -81,16 +81,8 @@ span {
     margin: 300px 700px;
 }
 
-@media (min-width: 400px) and (max-width: 767px) {
-    .margin {
-        margin: 40px 0;
+@media (min-width: 200px) and (max-width: 767px) {
+    .aa {
+        margin: auto;
     }
 }
-
-@media (min-width: 768px) {}
-
-@media (min-width: 992px) {}
-
-@media (min-width: 1200px) {}
-
-@media (min-width: 1400px) {}
