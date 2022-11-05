@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Financial Ratio Calculation</title>
+    <link rel="shortcut icon" href="media/Indulge1.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="frame/bootstrap.min.css">
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg bg-light">
+
+            <div class="container-fluid">
+                <a class="txt" href="#">
+                    <img src="media/Indulge1.png" width="30" height="30"> Financial Ratio Calculation
+                </a>
+
+            </div>
+            <div>
+
+                <div class="collapse navbar-collapse">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class=" active txt" aria-current="page" href="index.html">Home</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class=" txt" href="#">Features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class=" txt" href="#">LogIn</a>
+                        </li>
+
+
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <br>
+        <h1 class="text">Liquidity Ratio Calculate</h1>
+        <br><br>
+
+        <section class="mar">
+
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="card">
+                        <div class="card-body ab">
+                            <h1 class="text a">Input Values</h1>
+                            <p>&emsp; Current Assets: <input type="text" id="assets" placeholder="Input Current Assets"></p>
+                            <p>Current Liabilities: <input type="text" id="liablities" placeholder="Input Current Liabilities"></p>
+                            <p>&emsp;&emsp;&emsp; &nbspInventory: <input type="text" id="inven" placeholder="Input Inventory"></p>
+                            <p>&emsp; &emsp;&emsp;&emsp;&emsp; Cash: <input type="text" id="cash" placeholder="Input Cash"></p>
+                            <p>&nbsp;Cash Equivalents: <input type="text" id="cashEqu" placeholder="Input Cash Equivalents"></p>
+                            <br>
+                            <button class="btn-1 ar" id="calculate-liq">Calculate</button>
+                            <br><br>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-sm-6">
+                    <div class="card">
+                        <div class="card-body ab">
+                            <h1 class="text a">Result</h1>
+                            <p>&nbsp; &nbsp; Current Ratio: <input type="text" id="ratio" placeholder="Current Ratio"></p>
+                            <p>&emsp; &nbsp; Quick Ratio: <input type="text" id="quick" placeholder="Quick Ratio"></p>
+
+                            <p>&emsp; &nbsp; &nbsp; Cash Ratio: <input type="text" id="cashR" placeholder="Cash Ratio"></p>
+
+                            <p>Working Capital: <input type="text" id="working" placeholder="Working Capital"></p>
+                            <br><br><br>
+                            <button class="btn-1 ar" id="clear">Clear All</button>
+                            <br><br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <br><br><br>
+
+    </main>
+    <footer class="display">
+
+
+
+        <h3>Copyright @ABS</h3>
+
+
+    </footer>
+
+    <script src="js/liquidity.js"></script>
+    <script src="frame/bootstrap.bundle.js"></script>
+
+
+</body>

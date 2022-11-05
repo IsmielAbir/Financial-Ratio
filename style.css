@@ -54,3 +54,24 @@ span {
     padding: 50px;
     margin: auto;
 }
+
+.a {
+    margin-bottom: 50px;
+}
+
+.mar {
+    margin: 20px;
+}
+
+.ar {
+    padding: 12px 30px;
+    background-image: linear-gradient(rgb(241, 178, 17), orange);
+}
+
+.ar:hover {
+    background-image: linear-gradient(rgb(246, 197, 107), yellow);
+}
+
+.ab {
+    background-color: rgb(159, 223, 202);
+}
