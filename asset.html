@@ -47,7 +47,8 @@
 
     <main>
         <br>
-        <h1 class="text">Liquidity Ratio Calculate</h1>
+        <h1 class="text">Asset Management Ratios Calculate
+        </h1>
         <br><br>
 
         <section class="mar">
@@ -56,15 +57,27 @@
                 <div class="col-sm-6">
                     <div class="card">
                         <div class="card-body ab">
-                            <h1 class="text a">Input Values</h1>
-                            <p>&emsp; Current Assets: <input type="text" id="assets" placeholder="Input Current Assets"></p>
-                            <p>Current Liabilities: <input type="text" id="liablities" placeholder="Input Current Liabilities"></p>
-                            <p>&emsp;&emsp;&emsp; &nbspInventory: <input type="text" id="inven" placeholder="Input Inventory"></p>
-                            <p>&emsp; &emsp;&emsp;&emsp;&emsp; Cash: <input type="text" id="cash" placeholder="Input Cash"></p>
-                            <p>&nbsp;Cash Equivalents: <input type="text" id="cashEqu" placeholder="Input Cash Equivalents"></p>
                             <br>
-                            <button class="btn-1 ar" id="calculate-liq">Calculate</button>
-                            <br><br>
+                            <h1 class="text a">Input Values</h1>
+                            <p>&emsp; &emsp; &nbsp; Operating Cost: <input type="text" placeholder="Input Operating Cost" id="cost"></p>
+
+                            <p>&emsp; &emsp; &emsp; &emsp; &nbsp; Inventroy: <input type="text" placeholder="Input Inventroy" id="invent"></p>
+
+                            <p> &nbsp; Accounts Receivables: <input type="text" id="accounts" placeholder="Accounts Receivables
+                                "></p>
+
+                            <p>Average Sales per day : <input type="text" id="average" placeholder="Average Sales per day 
+                                "></p>
+
+                            <p> &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; Sales: <input type="text" placeholder="Input Sales" id="sales"></p>
+
+                            <p>&emsp; &emsp; Net Fixed Assets: <input type="text" id="fixed" placeholder="Input Net Fixed Assets"></p>
+
+                            <p>&emsp; &emsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp;Total Assets: <input type="text" placeholder="Input Total Assets" id="total"></p>
+                            <br>
+                            <button class="btn-1 ar" id="calculate2">Calculate</button>
+                            <br>
+
                         </div>
                     </div>
 
@@ -72,15 +85,21 @@
                 <div class="col-sm-6">
                     <div class="card">
                         <div class="card-body ab">
+                            <br>
                             <h1 class="text a">Result</h1>
-                            <p>&nbsp; &nbsp; Current Ratio: <input type="text" id="ratio" placeholder="Current Ratio"></p>
-                            <p>&emsp; &nbsp; Quick Ratio: <input type="text" id="quick" placeholder="Quick Ratio"></p>
+                            <p>Inventory Turnover Ratio : <input type="text" id="inventoryR" placeholder="Inventory"></p>
 
-                            <p>&emsp; &nbsp; &nbsp; Cash Ratio: <input type="text" id="cashR" placeholder="Cash Ratio"></p>
+                            <p>Fixed Asset Turnover Ratio:<input type="text" id="fixedR" placeholder="Fixed Asset"></p>
 
-                            <p>Working Capital: <input type="text" id="working" placeholder="Working Capital"></p>
-                            <br><br><br>
-                            <button class="btn-1 ar" id="clear">Clear All</button>
+
+                            <p>Total Asset Turnover Ratio :<input type="text" id="totalR" placeholder="Total Asset"></p>
+                            <br>
+                            <br>
+                            <p>Days Sales Outstanding (DSO) Ratio: <input type="text" id="DSOR" placeholder="DSO"></p>
+
+                            <br><br><br><br>
+
+                            <button class="btn-1 ar" id="clear">Clear</button>
                             <br><br>
                         </div>
                     </div>
@@ -99,7 +118,7 @@
 
     </footer>
 
-    <script src="js/liquidity.js"></script>
+    <script src="js/asset.js"></script>
     <script src="frame/bootstrap.bundle.js"></script>
 
 
